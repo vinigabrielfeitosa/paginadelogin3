@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=""></script>
+    <title>Login</title>
+</head>
+<body>
+
+    <header id="header">
+        <a id="logo" href="">Portal Educacional</a>
+        <nav id="nav">
+          <button style="background-color: white;" aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="#">SENAI</a></li>
+            <li><a href="#">SESI</a></li>
+            <li><a href="#">FIES</a></li>
+            <li><a href="#">CIES</a></li>
+            <li><a href="#">IRS</a></li>
+          </ul>
+        </nav>
+      </header>
+      <script src="javascript/styles.js"></script>
+
+    <div class="main-login">
+        <div class="left-login">
+            <h1>BEM VINDO AO PORTAL DIGITAL</h1>
+            <img src="imagens/senai-logo.png" class="left-login-image" alt="Senai-logo">
+        </div>
+        <form action="">
+        <div class="right-login">
+            <div class="card-login">
+                <h1>FAÇA SEU LOGIN</h1>
+                <div class="textfield">
+                    <label for="CPF">Digite o CPF:*</label>
+                    <input type="text" name="cpf" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" placeholder="___.___.___-">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha:*</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <button class="btn-login">Login</button>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    <footer>
+        Todos os direitos reservados ao Senai 2022.
+    </footer>
+</body>
+</html>
